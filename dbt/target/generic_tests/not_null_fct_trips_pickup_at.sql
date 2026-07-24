@@ -1,0 +1,1 @@
+{{ test_not_null(column_name="pickup_at", model=get_where_subquery(ref('fct_trips'))) }}

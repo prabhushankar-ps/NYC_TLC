@@ -9,6 +9,10 @@ node_modules/
 *.pub
 .env
 __pycache__/
+.dbt/
+!dbt/profiles.yml
+profiles.yml
+*.csv
 
 # Build output
 # dist/

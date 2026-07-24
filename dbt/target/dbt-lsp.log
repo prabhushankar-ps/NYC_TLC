@@ -1,0 +1,475 @@
+==================== 2026-07-24T08:47:05.862718Z | 3abb9e5f-3ab9-49a3-923e-cc42bd49ec3f ====================
+08:47:05.862964 [info ]: Starting dbt LSP server
+08:47:05.863061 [info ]: Connecting to LSP client on port 8000
+08:47:05.863295 [info ]: Successfully connected to LSP client
+08:47:05.863299 [info ]: Creating LSP service...
+08:47:05.906664 [info ]: Creating LSP server...
+08:47:05.906678 [info ]: Starting LSP server...
+08:47:05.929483 [info ]: Started loading project
+08:47:05.930709 [info ]: Finished loading project [  0.00s]
+08:47:53.168408 [info ]: Started loading project
+08:47:53.188557 [info ]: Finished loading project [  0.02s]
+08:50:07.279150 [info ]: Started loading project
+08:50:07.284100 [info ]: Finished loading project [  0.00s]
+08:57:13.594333 [info ]: Started loading project
+08:57:13.840160 [info ]: Started parsing
+08:57:13.871139 [info ]: Finished loading project [  0.28s]
+08:57:13.886295 [info ]: Finished parsing [  0.05s]
+08:57:13.887077 [info ]: Cached model count updated: 0 models (estimate)
+08:57:13.887095 [info ]: Cached model count updated: 0 models (accurate)
+08:57:13.888704 [info ]: Started scheduling
+08:57:13.890362 [info ]: Finished scheduling [  0.00s]
+08:57:13.996273 [info ]: Started building task graph
+08:57:13.998305 [info ]: Finished building task graph [  0.00s]
+08:57:14.008172 [info ]: Cached model count updated: 0 models (accurate)
+08:57:15.124446 [info ]: Started loading project
+08:57:15.132641 [info ]: Started parsing
+08:57:15.141959 [info ]: Finished loading project [  0.02s]
+08:57:15.149695 [info ]: Finished parsing [  0.02s]
+08:57:15.151679 [info ]: Cached model count updated: 0 models (estimate)
+08:57:15.151684 [info ]: Cached model count updated: 0 models (accurate)
+08:57:15.152169 [info ]: Started scheduling
+08:57:15.153109 [info ]: Finished scheduling [  0.00s]
+08:57:15.153517 [warn ]: dbt1000: The selection criterion '+fqn:source.nyc_taxi.raw.raw_yellow_trips+ +fqn:source.nyc_taxi.raw.raw_taxi_zones+' does not match any enabled nodes
+08:57:15.154143 [warn ]: dbt1000: Nothing to do. Try checking your model configs and model specification args
+08:57:15.214208 [info ]: Started building task graph
+08:57:15.215183 [info ]: Finished building task graph [  0.00s]
+08:57:15.215434 [debug]: Incremental compilation - 0 nodes selected: {}
+08:57:15.216750 [info ]: Cached model count updated: 0 models (accurate)
+08:57:41.030016 [info ]: Started loading project
+08:57:41.087318 [info ]: Started loading project
+08:57:41.087689 [info ]: Finished loading project [  0.06s]
+08:57:41.263059 [info ]: Started parsing
+08:57:41.297142 [info ]: Finished loading project [  0.21s]
+08:57:41.324129 [info ]: Finished parsing [  0.06s]
+08:57:41.325436 [info ]: Cached model count updated: 1 models (estimate)
+08:57:41.325453 [info ]: Cached model count updated: 1 models (accurate)
+08:57:41.327106 [info ]: Started scheduling
+08:57:41.328910 [info ]: Finished scheduling [  0.00s]
+08:57:41.419938 [info ]: Started building task graph
+08:57:41.424229 [info ]: Finished building task graph [  0.00s]
+08:57:41.433202 [info ]: Cached model count updated: 1 models (accurate)
+08:57:42.269534 [info ]: Started loading project
+08:57:42.279063 [info ]: Started parsing
+08:57:42.292983 [info ]: Finished loading project [  0.02s]
+08:57:42.295640 [info ]: Finished parsing [  0.02s]
+08:57:42.296432 [info ]: Cached model count updated: 1 models (estimate)
+08:57:42.296440 [info ]: Cached model count updated: 1 models (accurate)
+08:57:42.296649 [info ]: Started scheduling
+08:57:42.297401 [info ]: Finished scheduling [  0.00s]
+08:57:45.012787 [debug]: Query executed on node unknown:
+describe table "NYC_TAXI"."RAW"."RAW_TAXI_ZONES"
+08:57:46.123082 [info ]: Started building task graph
+08:57:46.125238 [info ]: Finished building task graph [  0.00s]
+08:57:46.128807 [info ]: Started rendering (1 nodes)
+08:57:46.130040 [info ]: Started model ANALYTICS_staging.stg_tax_zone
+08:57:46.130558 [debug]: Started rendering model ANALYTICS_staging.stg_tax_zone
+08:57:46.139133 [debug]: Finished rendering [  0.01s] model ANALYTICS_staging.stg_tax_zone [success]
+08:57:46.139351 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+08:57:46.139640 [info ]: Started analyzing (1 nodes)
+08:57:46.139665 [debug]: Started analyzing model ANALYTICS_staging.stg_tax_zone
+08:57:46.209251 [info ]:  Succeeded [  0.08s] model ANALYTICS_staging.stg_tax_zone (view)
+08:57:46.209274 [debug]: Finished analyzing [  0.07s] model ANALYTICS_staging.stg_tax_zone [success]
+08:57:46.209279 [info ]: Finished analyzing [  0.07s] (1 nodes, 0 skipped, 0 errors)
+08:57:46.209614 [debug]: Incremental compilation - 1 nodes selected: {"model.nyc_taxi.stg_tax_zone"}
+08:57:46.219490 [info ]: Cached model count updated: 1 models (accurate)
+08:57:56.763422 [info ]: Started loading project
+08:57:56.773235 [info ]: Started loading project
+08:57:56.773835 [info ]: Finished loading project [  0.01s]
+08:57:57.204177 [info ]: Started parsing
+08:57:57.235992 [info ]: Finished loading project [  0.46s]
+08:57:57.255458 [info ]: Finished parsing [  0.05s]
+08:57:57.256728 [info ]: Cached model count updated: 1 models (estimate)
+08:57:57.256732 [info ]: Cached model count updated: 1 models (accurate)
+08:57:57.258326 [info ]: Started scheduling
+08:57:57.260081 [info ]: Finished scheduling [  0.00s]
+08:57:57.778344 [debug]: Query executed on node unknown:
+describe table "NYC_TAXI"."RAW"."RAW_TAXI_ZONES"
+08:57:58.113512 [info ]: Started building task graph
+08:57:58.113850 [info ]: Finished building task graph [  0.00s]
+08:57:58.114139 [info ]: Started rendering (1 nodes)
+08:57:58.114160 [info ]: Started model ANALYTICS_staging.stg_taxi_zone
+08:57:58.114174 [debug]: Started rendering model ANALYTICS_staging.stg_taxi_zone
+08:57:58.115404 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_taxi_zone [success]
+08:57:58.115416 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:57:58.115476 [info ]: Started analyzing (1 nodes)
+08:57:58.115507 [debug]: Started analyzing model ANALYTICS_staging.stg_taxi_zone
+08:57:58.120200 [info ]:  Succeeded [  0.01s] model ANALYTICS_staging.stg_taxi_zone (view)
+08:57:58.120235 [debug]: Finished analyzing [  0.00s] model ANALYTICS_staging.stg_taxi_zone [success]
+08:57:58.120241 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:57:58.132156 [info ]: Cached model count updated: 1 models (accurate)
+08:58:26.926759 [info ]: Started loading project
+08:58:26.932193 [info ]: Started loading project
+08:58:26.932435 [info ]: Finished loading project [  0.01s]
+08:58:27.103791 [info ]: Started parsing
+08:58:27.118005 [info ]: Finished loading project [  0.19s]
+08:58:27.121731 [info ]: Finished parsing [  0.02s]
+08:58:27.121835 [info ]: Cached model count updated: 2 models (estimate)
+08:58:27.121840 [info ]: Cached model count updated: 2 models (accurate)
+08:58:27.121860 [info ]: Started scheduling
+08:58:27.121903 [info ]: Finished scheduling [  0.00s]
+08:58:27.180081 [info ]: Started building task graph
+08:58:27.180140 [info ]: Finished building task graph [  0.00s]
+08:58:27.180206 [info ]: Started rendering (1 nodes)
+08:58:27.180214 [info ]: Started model ANALYTICS_staging.stg_taxi_zone
+08:58:27.180221 [debug]: Started rendering model ANALYTICS_staging.stg_taxi_zone
+08:58:27.180765 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_taxi_zone [success]
+08:58:27.180767 [info ]: Started analyzing (1 nodes)
+08:58:27.180776 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:58:27.180783 [debug]: Started analyzing model ANALYTICS_staging.stg_taxi_zone
+08:58:27.186026 [info ]:  Succeeded [  0.01s] model ANALYTICS_staging.stg_taxi_zone (view)
+08:58:27.186039 [debug]: Finished analyzing [  0.01s] model ANALYTICS_staging.stg_taxi_zone [success]
+08:58:27.186042 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+08:58:27.187329 [info ]: Cached model count updated: 2 models (accurate)
+08:58:27.564872 [info ]: Started loading project
+08:58:27.573456 [info ]: Started parsing
+08:58:27.583509 [info ]: Finished loading project [  0.02s]
+08:58:27.585256 [info ]: Finished parsing [  0.01s]
+08:58:27.586040 [info ]: Cached model count updated: 2 models (estimate)
+08:58:27.586047 [info ]: Cached model count updated: 2 models (accurate)
+08:58:27.586060 [info ]: Started scheduling
+08:58:27.587114 [info ]: Finished scheduling [  0.00s]
+08:58:28.149841 [debug]: Query executed on node unknown:
+describe table "NYC_TAXI"."RAW"."RAW_YELLOW_TRIPS"
+08:58:28.524562 [info ]: Started building task graph
+08:58:28.524617 [info ]: Finished building task graph [  0.00s]
+08:58:28.524708 [info ]: Started rendering (1 nodes)
+08:58:28.524761 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+08:58:28.524771 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+08:58:28.525459 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_yellow_trips [success]
+08:58:28.525469 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:58:28.525477 [info ]: Started analyzing (1 nodes)
+08:58:28.525483 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+08:58:28.596680 [info ]:  Succeeded [  0.07s] model ANALYTICS_staging.stg_yellow_trips (view)
+08:58:28.596709 [debug]: Finished analyzing [  0.07s] model ANALYTICS_staging.stg_yellow_trips [success]
+08:58:28.596714 [info ]: Finished analyzing [  0.07s] (1 nodes, 0 skipped, 0 errors)
+08:58:28.596761 [debug]: Incremental compilation - 1 nodes selected: {"model.nyc_taxi.stg_yellow_trips"}
+08:58:28.604219 [info ]: Cached model count updated: 2 models (accurate)
+08:59:14.289829 [info ]: Started loading project
+08:59:14.296865 [info ]: Started parsing
+08:59:14.315291 [info ]: Finished loading project [  0.03s]
+08:59:14.317343 [info ]: Finished parsing [  0.02s]
+08:59:14.318172 [info ]: Cached model count updated: 2 models (estimate)
+08:59:14.318180 [info ]: Cached model count updated: 2 models (accurate)
+08:59:14.318206 [info ]: Started scheduling
+08:59:14.318264 [info ]: Finished scheduling [  0.00s]
+08:59:14.397102 [info ]: Started building task graph
+08:59:14.397159 [info ]: Finished building task graph [  0.00s]
+08:59:14.397240 [info ]: Started rendering (1 nodes)
+08:59:14.397265 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+08:59:14.397273 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+08:59:14.397854 [info ]: Started analyzing (1 nodes)
+08:59:14.397857 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_yellow_trips [success]
+08:59:14.397863 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:59:14.397866 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+08:59:14.402915 [info ]:  Succeeded [  0.01s] model ANALYTICS_staging.stg_yellow_trips (view)
+08:59:14.402929 [debug]: Finished analyzing [  0.01s] model ANALYTICS_staging.stg_yellow_trips [success]
+08:59:14.402933 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+08:59:14.402962 [debug]: Incremental compilation - 1 nodes selected: {"model.nyc_taxi.stg_yellow_trips"}
+08:59:14.405225 [info ]: Cached model count updated: 2 models (accurate)
+09:02:04.613904 [info ]: Started loading project
+09:02:04.843539 [info ]: Started loading project
+09:02:04.845044 [info ]: Finished loading project [  0.23s]
+09:02:05.311080 [info ]: Started parsing
+09:02:05.349141 [info ]: Finished loading project [  0.51s]
+09:02:05.389156 [info ]: Finished parsing [  0.08s]
+09:02:05.390775 [info ]: Cached model count updated: 3 models (estimate)
+09:02:05.390946 [info ]: Cached model count updated: 3 models (accurate)
+09:02:05.393379 [info ]: Started scheduling
+09:02:05.398897 [info ]: Finished scheduling [  0.01s]
+09:02:06.189033 [debug]: Query executed on node unknown:
+describe table "NYC_TAXI"."RAW"."RAW_YELLOW_TRIPS"
+09:02:06.709253 [info ]: Started building task graph
+09:02:06.712973 [info ]: Finished building task graph [  0.00s]
+09:02:06.717056 [info ]: Started rendering (2 nodes)
+09:02:06.717897 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+09:02:06.718673 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+09:02:06.718701 [info ]: Started model ANALYTICS_staging.stg_taxi_zone
+09:02:06.718711 [debug]: Started rendering model ANALYTICS_staging.stg_taxi_zone
+09:02:06.728608 [debug]: Finished rendering [  0.01s] model ANALYTICS_staging.stg_taxi_zone [success]
+09:02:06.728662 [info ]: Started analyzing (2 nodes)
+09:02:06.728672 [debug]: Started analyzing model ANALYTICS_staging.stg_taxi_zone
+09:02:06.728833 [debug]: Finished rendering [  0.01s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:02:06.728841 [info ]: Finished rendering [  0.01s] (2 nodes, 0 skipped, 0 errors)
+09:02:06.728848 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+09:02:06.779236 [info ]:  Succeeded [  0.06s] model ANALYTICS_staging.stg_taxi_zone (view)
+09:02:06.779272 [debug]: Finished analyzing [  0.05s] model ANALYTICS_staging.stg_taxi_zone [success]
+09:02:06.793174 [info ]:  Succeeded [  0.07s] model ANALYTICS_staging.stg_yellow_trips (view)
+09:02:06.793191 [debug]: Finished analyzing [  0.06s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:02:06.793196 [info ]: Finished analyzing [  0.06s] (2 nodes, 0 skipped, 0 errors)
+09:02:06.803373 [info ]: Cached model count updated: 3 models (accurate)
+09:02:10.248401 [info ]: Started loading project
+09:02:10.258898 [info ]: Started parsing
+09:02:10.271332 [info ]: Finished loading project [  0.02s]
+09:02:10.274706 [error]: dbt1005: Ref 'stg_taxi_zones' not found in project. Searched for 'nyc_taxi.stg_taxi_zones, stg_taxi_zones'
+  --> models/marts/dim_zones.sql:7:6
+09:02:10.275439 [info ]: Cached model count updated: 3 models (estimate)
+09:02:10.275443 [info ]: Cached model count updated: 3 models (accurate)
+09:02:10.275473 [info ]: Started scheduling
+09:02:10.275917 [info ]: Finished scheduling [  0.00s]
+09:02:10.339153 [info ]: Started building task graph
+09:02:10.339975 [info ]: Finished building task graph [  0.00s]
+09:02:10.340066 [info ]: Started rendering (1 nodes)
+09:02:10.340083 [info ]: Started model ANALYTICS_marts.dim_zones
+09:02:10.340098 [debug]: Started rendering model ANALYTICS_marts.dim_zones
+09:02:10.340133 [info ]: Finished parsing [  0.08s]
+09:02:10.340609 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.dim_zones [error]
+09:02:10.340616 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+09:02:10.340635 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: nyc_taxi, model: stg_taxi_zones, version: None
+(in models/marts/dim_zones.sql:7:6)
+  --> models/marts/dim_zones.sql:7:6
+09:02:10.340663 [info ]: Started analyzing (1 nodes)
+09:02:10.340671 [debug]: Started analyzing model ANALYTICS_marts.dim_zones
+09:02:10.340685 [info ]:     Failed [-------] model ANALYTICS_marts.dim_zones (table)
+09:02:10.340696 [debug]: Finished analyzing [  0.00s] model ANALYTICS_marts.dim_zones [skipped]
+09:02:10.340699 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+09:02:10.340904 [debug]: Incremental compilation - 1 nodes selected: {"model.nyc_taxi.dim_zones"}
+09:02:10.342806 [info ]: Cached model count updated: 3 models (accurate)
+09:02:31.904516 [info ]: Started loading project
+09:02:31.911109 [info ]: Started loading project
+09:02:31.911323 [info ]: Finished loading project [  0.01s]
+09:02:32.142646 [info ]: Started parsing
+09:02:32.182373 [info ]: Finished loading project [  0.27s]
+09:02:32.191729 [error]: dbt1005: Ref 'stg_taxi_zones' not found in project. Searched for 'nyc_taxi.stg_taxi_zones, stg_taxi_zones'
+  --> models/marts/dim_zones.sql:7:6
+09:02:32.192234 [info ]: Cached model count updated: 4 models (estimate)
+09:02:32.192245 [info ]: Cached model count updated: 4 models (accurate)
+09:02:32.192272 [info ]: Started scheduling
+09:02:32.192334 [info ]: Finished scheduling [  0.00s]
+09:02:32.288682 [info ]: Started building task graph
+09:02:32.288898 [info ]: Finished building task graph [  0.00s]
+09:02:32.289095 [info ]: Started rendering (3 nodes)
+09:02:32.289107 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+09:02:32.289115 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+09:02:32.289133 [info ]: Started model ANALYTICS_staging.stg_taxi_zone
+09:02:32.289138 [debug]: Started rendering model ANALYTICS_staging.stg_taxi_zone
+09:02:32.289144 [info ]: Started model ANALYTICS_marts.dim_zones
+09:02:32.289147 [debug]: Started rendering model ANALYTICS_marts.dim_zones
+09:02:32.289176 [info ]: Finished parsing [  0.15s]
+09:02:32.289622 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.dim_zones [error]
+09:02:32.289658 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: nyc_taxi, model: stg_taxi_zones, version: None
+(in models/marts/dim_zones.sql:7:6)
+  --> models/marts/dim_zones.sql:7:6
+09:02:32.289683 [info ]: Started analyzing (3 nodes)
+09:02:32.289690 [debug]: Started analyzing model ANALYTICS_marts.dim_zones
+09:02:32.289701 [info ]:     Failed [-------] model ANALYTICS_marts.dim_zones (table)
+09:02:32.289709 [debug]: Finished analyzing [  0.00s] model ANALYTICS_marts.dim_zones [skipped]
+09:02:32.289908 [debug]: Started analyzing model ANALYTICS_staging.stg_taxi_zone
+09:02:32.289921 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_taxi_zone [success]
+09:02:32.289943 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:02:32.289949 [info ]: Finished rendering [  0.00s] (3 nodes, 0 skipped, 1 errors)
+09:02:32.289955 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+09:02:32.311191 [info ]:  Succeeded [  0.02s] model ANALYTICS_staging.stg_taxi_zone (view)
+09:02:32.311214 [debug]: Finished analyzing [  0.02s] model ANALYTICS_staging.stg_taxi_zone [success]
+09:02:32.323389 [info ]:  Succeeded [  0.03s] model ANALYTICS_staging.stg_yellow_trips (view)
+09:02:32.323412 [debug]: Finished analyzing [  0.03s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:02:32.323416 [info ]: Finished analyzing [  0.03s] (3 nodes, 1 skipped, 0 errors)
+09:02:32.325265 [info ]: Cached model count updated: 4 models (accurate)
+09:02:37.875573 [info ]: Started loading project
+09:02:37.884754 [info ]: Started parsing
+09:02:37.902264 [info ]: Finished loading project [  0.03s]
+09:02:37.904128 [error]: dbt1005: Ref 'stg_taxi_zones' not found in project. Searched for 'nyc_taxi.stg_taxi_zones, stg_taxi_zones'
+  --> models/marts/dim_zones.sql:7:6
+09:02:37.905000 [info ]: Cached model count updated: 4 models (estimate)
+09:02:37.905008 [info ]: Cached model count updated: 4 models (accurate)
+09:02:37.905032 [info ]: Started scheduling
+09:02:37.905091 [info ]: Finished scheduling [  0.00s]
+09:02:37.975365 [info ]: Started building task graph
+09:02:37.975446 [info ]: Finished building task graph [  0.00s]
+09:02:37.975533 [info ]: Started rendering (3 nodes)
+09:02:37.975551 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+09:02:37.975559 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+09:02:37.975573 [info ]: Started model ANALYTICS_marts.dim_zones
+09:02:37.975578 [debug]: Started rendering model ANALYTICS_marts.dim_zones
+09:02:37.975594 [info ]: Finished parsing [  0.09s]
+09:02:37.975869 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.dim_zones [error]
+09:02:37.975889 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: nyc_taxi, model: stg_taxi_zones, version: None
+(in models/marts/dim_zones.sql:7:6)
+  --> models/marts/dim_zones.sql:7:6
+09:02:37.976374 [info ]: Started analyzing (3 nodes)
+09:02:37.976389 [debug]: Started analyzing model ANALYTICS_marts.dim_zones
+09:02:37.976401 [info ]:     Failed [-------] model ANALYTICS_marts.dim_zones (table)
+09:02:37.976410 [debug]: Finished analyzing [  0.00s] model ANALYTICS_marts.dim_zones [skipped]
+09:02:37.976934 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:02:37.976949 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+09:02:38.003301 [info ]:  Succeeded [  0.03s] model ANALYTICS_staging.stg_yellow_trips (view)
+09:02:38.003322 [debug]: Finished analyzing [  0.03s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:02:38.003338 [info ]: Started model ANALYTICS_marts.fct_trips
+09:02:38.003345 [debug]: Started rendering model ANALYTICS_marts.fct_trips
+09:02:38.003355 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.fct_trips [skipped]
+09:02:38.003359 [info ]: Finished rendering [  0.03s] (3 nodes, 1 skipped, 1 errors)
+09:02:38.003363 [debug]: Started analyzing model ANALYTICS_marts.fct_trips
+09:02:38.003367 [info ]:    Skipped [-------] model ANALYTICS_marts.fct_trips (table)
+09:02:38.003373 [debug]: Finished analyzing [  0.00s] model ANALYTICS_marts.fct_trips [skipped]
+09:02:38.003375 [info ]: Finished analyzing [  0.03s] (3 nodes, 2 skipped, 0 errors)
+09:02:38.003420 [debug]: Incremental compilation - 3 nodes selected: {"model.nyc_taxi.dim_zones", "model.nyc_taxi.fct_trips", "model.nyc_taxi.stg_yellow_trips"}
+09:02:38.007662 [info ]: Cached model count updated: 4 models (accurate)
+09:03:11.843922 [info ]: Started loading project
+09:03:11.848985 [info ]: Started loading project
+09:03:11.849139 [info ]: Finished loading project [  0.01s]
+09:03:12.008290 [info ]: Started parsing
+09:03:12.023468 [info ]: Finished loading project [  0.17s]
+09:03:12.027809 [error]: dbt1005: Ref 'stg_taxi_zones' not found in project. Searched for 'nyc_taxi.stg_taxi_zones, stg_taxi_zones'
+  --> models/marts/dim_zones.sql:7:6
+09:03:12.027976 [info ]: Cached model count updated: 4 models (estimate)
+09:03:12.027981 [info ]: Cached model count updated: 4 models (accurate)
+09:03:12.027998 [info ]: Started scheduling
+09:03:12.028042 [info ]: Finished scheduling [  0.00s]
+09:03:12.089543 [info ]: Started building task graph
+09:03:12.089629 [info ]: Finished building task graph [  0.00s]
+09:03:12.089711 [info ]: Started rendering (4 nodes)
+09:03:12.089720 [info ]: Started model ANALYTICS_staging.stg_taxi_zone
+09:03:12.089726 [debug]: Started rendering model ANALYTICS_staging.stg_taxi_zone
+09:03:12.089740 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+09:03:12.089745 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+09:03:12.089761 [info ]: Started model ANALYTICS_marts.dim_zones
+09:03:12.089765 [debug]: Started rendering model ANALYTICS_marts.dim_zones
+09:03:12.089763 [info ]: Finished parsing [  0.08s]
+09:03:12.090050 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.dim_zones [error]
+09:03:12.090096 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: nyc_taxi, model: stg_taxi_zones, version: None
+(in models/marts/dim_zones.sql:7:6)
+  --> models/marts/dim_zones.sql:7:6
+09:03:12.090119 [info ]: Started analyzing (4 nodes)
+09:03:12.090135 [debug]: Started analyzing model ANALYTICS_marts.dim_zones
+09:03:12.090147 [info ]:     Failed [-------] model ANALYTICS_marts.dim_zones (table)
+09:03:12.090204 [debug]: Finished analyzing [  0.00s] model ANALYTICS_marts.dim_zones [skipped]
+09:03:12.090301 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_taxi_zone [success]
+09:03:12.090300 [debug]: Started analyzing model ANALYTICS_staging.stg_taxi_zone
+09:03:12.090331 [debug]: Finished rendering [  0.00s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:03:12.090337 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+09:03:12.092884 [info ]:  Succeeded [  0.00s] model ANALYTICS_staging.stg_taxi_zone (view)
+09:03:12.092899 [debug]: Finished analyzing [  0.00s] model ANALYTICS_staging.stg_taxi_zone [success]
+09:03:12.096586 [info ]:  Succeeded [  0.01s] model ANALYTICS_staging.stg_yellow_trips (view)
+09:03:12.096595 [debug]: Finished analyzing [  0.01s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:03:12.096604 [info ]: Started model ANALYTICS_marts.fct_trips
+09:03:12.096610 [debug]: Started rendering model ANALYTICS_marts.fct_trips
+09:03:12.096618 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.fct_trips [skipped]
+09:03:12.096621 [info ]: Finished rendering [  0.01s] (4 nodes, 1 skipped, 1 errors)
+09:03:12.096625 [debug]: Started analyzing model ANALYTICS_marts.fct_trips
+09:03:12.096630 [info ]:    Skipped [-------] model ANALYTICS_marts.fct_trips (table)
+09:03:12.096636 [debug]: Finished analyzing [  0.00s] model ANALYTICS_marts.fct_trips [skipped]
+09:03:12.096639 [info ]: Finished analyzing [  0.01s] (4 nodes, 2 skipped, 0 errors)
+09:03:12.097987 [info ]: Cached model count updated: 4 models (accurate)
+09:03:12.736155 [info ]: Started loading project
+09:03:12.741581 [info ]: Started parsing
+09:03:12.752213 [info ]: Finished loading project [  0.02s]
+09:03:12.759011 [error]: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:11:23
+09:03:12.761103 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:25:22
+09:03:12.766061 [error]: dbt1005: Ref 'stg_taxi_zones' not found in project. Searched for 'nyc_taxi.stg_taxi_zones, stg_taxi_zones'
+  --> models/marts/dim_zones.sql:7:6
+09:03:12.766681 [info ]: Cached model count updated: 4 models (estimate)
+09:03:12.766686 [info ]: Cached model count updated: 4 models (accurate)
+09:03:12.766699 [info ]: Started scheduling
+09:03:12.766726 [info ]: Finished scheduling [  0.00s]
+09:03:12.767074 [warn ]: dbt1000: The selection criterion '' does not match any enabled nodes
+09:03:12.767078 [warn ]: dbt1000: Nothing to do. Try checking your model configs and model specification args
+09:03:12.828722 [info ]: Started building task graph
+09:03:12.828753 [info ]: Finished building task graph [  0.00s]
+09:03:12.828822 [debug]: Incremental compilation - 0 nodes selected: {}
+09:03:12.830035 [info ]: Cached model count updated: 4 models (accurate)
+09:03:12.830292 [info ]: Finished parsing [  0.09s]
+09:07:32.925096 [info ]: Started loading project
+09:07:32.980380 [info ]: Started loading project
+09:07:32.980873 [info ]: Finished loading project [  0.06s]
+09:07:33.168724 [info ]: Started parsing
+09:07:33.203952 [info ]: Finished loading project [  0.22s]
+09:07:33.235582 [error]: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:11:23
+09:07:33.237799 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:25:22
+09:07:33.245895 [info ]: Finished parsing [  0.08s]
+09:07:33.247340 [info ]: Cached model count updated: 4 models (estimate)
+09:07:33.247346 [info ]: Cached model count updated: 4 models (accurate)
+09:07:33.248754 [info ]: Started scheduling
+09:07:33.251505 [info ]: Finished scheduling [  0.00s]
+09:07:33.344996 [info ]: Started building task graph
+09:07:33.348716 [info ]: Finished building task graph [  0.00s]
+09:07:33.352633 [info ]: Started rendering (4 nodes)
+09:07:33.353475 [info ]: Started model ANALYTICS_staging.stg_yellow_trips
+09:07:33.354320 [debug]: Started rendering model ANALYTICS_staging.stg_yellow_trips
+09:07:33.354343 [info ]: Started model ANALYTICS_staging.stg_taxi_zones
+09:07:33.354348 [debug]: Started rendering model ANALYTICS_staging.stg_taxi_zones
+09:07:33.362463 [debug]: Finished rendering [  0.01s] model ANALYTICS_staging.stg_taxi_zones [success]
+09:07:33.362883 [info ]: Started analyzing (4 nodes)
+09:07:33.362967 [debug]: Started analyzing model ANALYTICS_staging.stg_taxi_zones
+09:07:33.362980 [debug]: Finished rendering [  0.01s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:07:33.362987 [debug]: Started analyzing model ANALYTICS_staging.stg_yellow_trips
+09:07:33.414192 [info ]:  Succeeded [  0.06s] model ANALYTICS_staging.stg_taxi_zones (view)
+09:07:33.414223 [debug]: Finished analyzing [  0.05s] model ANALYTICS_staging.stg_taxi_zones [success]
+09:07:33.414236 [info ]: Started model ANALYTICS_marts.dim_zones
+09:07:33.414243 [debug]: Started rendering model ANALYTICS_marts.dim_zones
+09:07:33.414792 [debug]: Started analyzing model ANALYTICS_marts.dim_zones
+09:07:33.414793 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.dim_zones [success]
+09:07:33.429274 [info ]:  Succeeded [  0.07s] model ANALYTICS_staging.stg_yellow_trips (view)
+09:07:33.429290 [debug]: Finished analyzing [  0.07s] model ANALYTICS_staging.stg_yellow_trips [success]
+09:07:33.433755 [info ]:  Succeeded [  0.02s] model ANALYTICS_marts.dim_zones (table)
+09:07:33.433764 [debug]: Finished analyzing [  0.02s] model ANALYTICS_marts.dim_zones [success]
+09:07:33.433773 [info ]: Started model ANALYTICS_marts.fct_trips
+09:07:33.433779 [debug]: Started rendering model ANALYTICS_marts.fct_trips
+09:07:33.434202 [debug]: Started analyzing model ANALYTICS_marts.fct_trips
+09:07:33.434206 [debug]: Finished rendering [  0.00s] model ANALYTICS_marts.fct_trips [success]
+09:07:33.434211 [info ]: Finished rendering [  0.08s] (4 nodes, 0 skipped, 0 errors)
+09:07:33.842053 [info ]:  Succeeded [  0.41s] model ANALYTICS_marts.fct_trips (table)
+09:07:33.842077 [debug]: Finished analyzing [  0.41s] model ANALYTICS_marts.fct_trips [success]
+09:07:33.842082 [info ]: Finished analyzing [  0.48s] (4 nodes, 0 skipped, 0 errors)
+09:07:33.850953 [info ]: Cached model count updated: 4 models (accurate)
+09:11:36.698350 [info ]: Started loading project
+09:11:36.778468 [info ]: Started parsing
+09:11:36.806247 [info ]: Finished loading project [  0.11s]
+09:11:36.843175 [error]: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:11:23
+09:11:36.845762 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:25:22
+09:11:36.854130 [info ]: Finished parsing [  0.08s]
+09:11:36.857394 [info ]: Cached model count updated: 4 models (estimate)
+09:11:36.857405 [info ]: Cached model count updated: 4 models (accurate)
+09:11:36.859190 [info ]: Started scheduling
+09:11:36.863163 [info ]: Finished scheduling [  0.00s]
+09:11:36.978293 [info ]: Started building task graph
+09:11:36.982452 [info ]: Finished building task graph [  0.00s]
+09:11:36.986279 [info ]: Started rendering (1 nodes)
+09:11:36.987064 [info ]: Started model ANALYTICS_marts.fct_trips
+09:11:36.987910 [debug]: Started rendering model ANALYTICS_marts.fct_trips
+09:11:37.017503 [debug]: Finished rendering [  0.03s] model ANALYTICS_marts.fct_trips [success]
+09:11:37.017672 [info ]: Finished rendering [  0.03s] (1 nodes, 0 skipped, 0 errors)
+09:11:37.017853 [info ]: Started analyzing (1 nodes)
+09:11:37.017875 [debug]: Started analyzing model ANALYTICS_marts.fct_trips
+09:11:37.253076 [info ]:  Succeeded [  0.26s] model ANALYTICS_marts.fct_trips (incremental)
+09:11:37.253257 [debug]: Finished analyzing [  0.24s] model ANALYTICS_marts.fct_trips [success]
+09:11:37.253267 [info ]: Finished analyzing [  0.24s] (1 nodes, 0 skipped, 0 errors)
+09:11:37.255181 [debug]: Incremental compilation - 1 nodes selected: {"model.nyc_taxi.fct_trips"}
+09:11:37.263461 [info ]: Cached model count updated: 4 models (accurate)
+09:12:19.994558 [info ]: Started loading project
+09:12:19.999890 [info ]: Started parsing
+09:12:20.011977 [info ]: Finished loading project [  0.02s]
+09:12:20.014168 [error]: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:11:23
+09:12:20.015353 [error]: dbt0102: Deprecated test arguments: ["field", "to"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> models/marts/schema.yml:25:22
+09:12:20.022102 [info ]: Finished parsing [  0.02s]
+09:12:20.022786 [info ]: Cached model count updated: 4 models (estimate)
+09:12:20.022792 [info ]: Cached model count updated: 4 models (accurate)
+09:12:20.022830 [info ]: Started scheduling
+09:12:20.022924 [info ]: Finished scheduling [  0.00s]
+09:12:20.846621 [debug]: Query executed on node unknown:
+SHOW OBJECTS IN SCHEMA "NYC_TAXI"."ANALYTICS_MARTS" LIMIT 10000
+09:12:21.347382 [info ]: Started building task graph
+09:12:21.347471 [info ]: Finished building task graph [  0.00s]
+09:12:21.347576 [info ]: Started rendering (1 nodes)
+09:12:21.347592 [info ]: Started model ANALYTICS_marts.fct_trips
+09:12:21.347607 [debug]: Started rendering model ANALYTICS_marts.fct_trips
+09:12:21.357872 [debug]: Finished rendering [  0.01s] model ANALYTICS_marts.fct_trips [success]
+09:12:21.357886 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+09:12:21.357897 [info ]: Started analyzing (1 nodes)
+09:12:21.357905 [debug]: Started analyzing model ANALYTICS_marts.fct_trips
+09:12:21.462601 [info ]:  Succeeded [  0.11s] model ANALYTICS_marts.fct_trips (incremental)
+09:12:21.462624 [debug]: Finished analyzing [  0.10s] model ANALYTICS_marts.fct_trips [success]
+09:12:21.462628 [info ]: Finished analyzing [  0.10s] (1 nodes, 0 skipped, 0 errors)
+09:12:21.462679 [debug]: Incremental compilation - 1 nodes selected: {"model.nyc_taxi.fct_trips"}
+09:12:21.466425 [info ]: Cached model count updated: 4 models (accurate)
+09:17:47.086614 [info ]: Started loading project
+09:17:47.116349 [info ]: Finished loading project [  0.03s]
+09:17:49.843956 [info ]: Started loading project
+09:17:49.860813 [info ]: Finished loading project [  0.02s]

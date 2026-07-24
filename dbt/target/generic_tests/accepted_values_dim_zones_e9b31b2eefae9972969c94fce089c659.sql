@@ -1,0 +1,1 @@
+{{ test_accepted_values(column_name="borough", model=get_where_subquery(ref('dim_zones')), values=["Manhattan","Brooklyn","Queens","Bronx","EWR","Staten Island","Unknown","N/A"]) }}

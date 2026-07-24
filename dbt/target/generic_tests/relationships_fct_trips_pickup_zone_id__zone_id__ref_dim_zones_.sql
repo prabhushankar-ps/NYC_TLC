@@ -1,0 +1,1 @@
+{{ test_relationships(column_name="pickup_zone_id", field="zone_id", model=get_where_subquery(ref('fct_trips')), to=ref('dim_zones')) }}

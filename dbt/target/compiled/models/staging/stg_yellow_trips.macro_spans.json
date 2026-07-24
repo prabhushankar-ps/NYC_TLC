@@ -1,0 +1,28 @@
+[
+  {
+    "macro_span": {
+      "start": {
+        "line": 3,
+        "col": 19,
+        "index": 36
+      },
+      "stop": {
+        "line": 3,
+        "col": 58,
+        "index": 75
+      }
+    },
+    "expanded_span": {
+      "start": {
+        "line": 3,
+        "col": 19,
+        "index": 36
+      },
+      "stop": {
+        "line": 3,
+        "col": 48,
+        "index": 65
+      }
+    }
+  }
+]

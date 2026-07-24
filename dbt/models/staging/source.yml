@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: NYC_TAXI
+    schema: RAW
+    tables:
+      - name: raw_yellow_trips
+      - name: raw_taxi_zones

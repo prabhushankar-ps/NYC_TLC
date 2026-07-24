@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: dim_zones
+    columns:
+      - name: zone_id
+        tests: [unique, not_null]
+      - name: borough
+        tests:
+          - accepted_values:
+              values: ['Manhattan','Brooklyn','Queens','Bronx','EWR','Staten Island','Unknown','N/A']
+
+  - name: fct_trips
+    columns:
+      - name: trip_key
+        tests: [not_null]
+      - name: pickup_at
+        tests: [not_null]
+      - name: total_amount
+        tests: [not_null]
+      - name: pickup_zone_id
+        tests:
+          - relationships:
+              to: ref('dim_zones')
+              field: zone_id
