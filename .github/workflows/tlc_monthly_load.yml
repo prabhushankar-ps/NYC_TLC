@@ -42,3 +42,12 @@ jobs:
           SF_WAREHOUSE:   ${{ secrets.SF_WAREHOUSE }}
           DBT_PROFILES_DIR: .
         run: dbt build
+      - name: Debug dbt setup
+        working-directory: dbt
+        run: |
+          pwd
+          ls -la
+          echo "DBT_PROFILES_DIR=$DBT_PROFILES_DIR"
+          cat profiles.yml
+        env:
+          DBT_PROFILES_DIR: .
