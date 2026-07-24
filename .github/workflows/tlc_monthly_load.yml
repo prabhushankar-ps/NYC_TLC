@@ -1,3 +1,14 @@
+name: TLC Monthly Load
+
+on:
+  schedule:
+    - cron: '17 6 3 * *'
+  workflow_dispatch:
+    inputs:
+      month:
+        description: 'YYYY-MM to load (blank = auto)'
+        required: false
+        
 jobs:
   load:
     runs-on: ubuntu-latest
