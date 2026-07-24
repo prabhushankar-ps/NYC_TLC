@@ -13,6 +13,10 @@ __pycache__/
 !dbt/profiles.yml
 profiles.yml
 *.csv
+logs/
+target/
+dbt_packages/
+.user.yml
 
 # Build output
 # dist/
