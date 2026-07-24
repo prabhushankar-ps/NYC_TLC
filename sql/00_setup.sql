@@ -1,5 +1,4 @@
--- Set up NYC Taxi ingestion infrastructure with Parquet stage and raw table
--- Co-authored with CoCo
+
 USE ROLE SYSADMIN;
 
 CREATE WAREHOUSE IF NOT EXISTS LOAD_WH

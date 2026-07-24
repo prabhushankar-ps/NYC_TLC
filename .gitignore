@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env.local
+*.parquet
+*.p8
+*.pem
+*.pub
+.env
+__pycache__/
+
+# Build output
+# dist/
+# build/
+
+# Logs
+# *.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
